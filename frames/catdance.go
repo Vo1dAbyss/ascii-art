@@ -1,3 +1,8 @@
+package frames
+
+var Donut = DefaultFrameType(DonutFrames)
+
+var DonutFrames = []string{
 `
                                  */                                             
                                 *(((.           ./(                             
@@ -162,3 +167,4 @@
              *#####,                              /&&#%%##,                     
                                                    /((((//                      
         `,
+}
